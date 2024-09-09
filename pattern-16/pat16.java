@@ -1,22 +1,25 @@
 import java.util.*;
 
-class pat1
+public class pat16 
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter pattern size : ");
         int n = sc.nextInt();
+        int a;
         System.out.print("\n");
+
         for(int i=0;i<n;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=0;j<i+1;j++)
             {
-                System.out.print("* ");
+                a = 65 + i;
+                System.out.print((char)a);
             }
             System.out.print("\n");
         }
         System.out.print("\n");
         sc.close();
-    }
+    }    
 }
