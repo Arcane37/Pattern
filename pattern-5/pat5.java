@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 
 public class pat5 
 {
@@ -18,5 +17,6 @@ public class pat5
             System.out.print("\n");
         }
         System.out.print("\n");
+        sc.close();
     }    
 }

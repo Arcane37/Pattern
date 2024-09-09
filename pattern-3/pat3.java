@@ -17,5 +17,6 @@ public class pat3
             System.out.print("\n");
         }
         System.out.print("\n");
+        sc.close();
     }    
 }
